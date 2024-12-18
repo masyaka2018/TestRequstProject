@@ -16,7 +16,7 @@ public class PostRequestTest {
 
     @Test
     @Description("Send Post request to server")
-    public void sendPortRequest(){
+    public void sendPostRequest(){
         given()
                 .baseUri("https://api.dropboxapi.com/")
                 .header("Authorization", "Bearer","Content-Type","application/json")
